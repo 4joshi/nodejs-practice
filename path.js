@@ -10,4 +10,7 @@ console.log(dir);
 console.log(file);
 console.log(pathToFile);
 
-console.log(path.resolve(pathToFile));
+const absolutePath = path.resolve(pathToFile);
+console.log(absolutePath);
+
+console.log(path.basename(absolutePath));
