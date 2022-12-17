@@ -12,3 +12,19 @@ const currentOS = {
 }
 
 console.log(currentOS);
+
+//CPU architecture
+const arch = os.arch();
+console.log(arch);
+
+//CPU core info
+const cores = os.cpus();
+console.log(cores);
+
+//Free memory
+const freeMemory = os.freemem();
+console.log(freeMemory);
+
+//Home Directory
+const homeDir = os.homedir();   
+console.log(homeDir);

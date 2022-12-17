@@ -1,3 +1,1 @@
-const path = require('path');
-
-console.log(path.sep);
+const sampleHttp = require('./sampleHttp');
